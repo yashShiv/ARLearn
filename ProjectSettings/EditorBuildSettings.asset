@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/AnimalList.unity
+    guid: 58050a7703304cc4c89cfa512f4130c1
+  - enabled: 1
+    path: Assets/Scenes/VehicleList.unity
+    guid: 1c02bd3d33679244b9552e2246131613
+  - enabled: 1
+    path: Assets/Scenes/BuilidingList.unity
+    guid: 3f52adbedb24cd04ab91cb49ca000ef7
+  - enabled: 1
+    path: Assets/Scenes/ARScreen.unity
+    guid: f21b00d8fa5507b4bbdaf57531b4c883
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e2b16ea09a2287c48b96ba171d5c4d6d,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 08781eb3f159f7c4a9f2c6ae1e034646,
+      type: 2}

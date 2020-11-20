@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &563723906675826795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3449092903603388904}
+  - component: {fileID: -1702984594279105190}
+  m_Layer: 0
+  m_Name: Eagle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3449092903603388904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563723906675826795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3173682872474253192}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1702984594279105190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563723906675826795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b641b58c4f8f5b4c89977cf1341039a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelInfo: 'Eagles are large birds of prey, meaning that they hunt and eat animals
+    for food. They are related to hawks, falcons, and vultures. Eagles have long
+    held a special place in the human imagination because of their strength and soaring
+    flight. The golden eagle has been a symbol of power since ancient times. The
+    bald eagle is the national symbol of the United States.\n
+
+    Eagles are found
+    nearly all over the world in many different habitats. There are more than 50
+    species, or types, of eagle. All are excellent hunters because of their keen
+    eyesight, strong claws, and hooked beak. Different types of eagle eat a great
+    variety of animals. Their prey ranges from fish, birds, or snakes to rabbits,
+    foxes, monkeys, and even deer.'
+--- !u!1001 &3134952552193118307
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3449092903603388904}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af92c9b3842ccf749a778a0e5bb82c70,
+        type: 3}
+      propertyPath: m_Name
+      value: EagleModel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af92c9b3842ccf749a778a0e5bb82c70, type: 3}
+--- !u!4 &3173682872474253192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: af92c9b3842ccf749a778a0e5bb82c70,
+    type: 3}
+  m_PrefabInstance: {fileID: 3134952552193118307}
+  m_PrefabAsset: {fileID: 0}
