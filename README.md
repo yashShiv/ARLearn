@@ -7,3 +7,5 @@ Instruction:
 3. Install Android Build Support and the Android SDK & NDK tools.
 4. Enable USB debugging on the android device.
 5. Build and Run.
+
+For more details, refer to ARLearn Project Report.pdf.
